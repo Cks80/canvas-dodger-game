@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canvas 躲避小遊戲</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Canvas 躲避小遊戲</h1>
+      <div class="info-bar">
+        <p class="hint">
+          操作說明：使用 ← → 或 A / D 鍵左右移動，躲避從上方掉落的方塊。
+        </p>
+        <div class="controls">
+          <button id="startBtn">開始遊戲</button>
+          <span id="scoreDisplay">得分：0</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="480" height="640"></canvas>
+    </div>
+
+    <script src="src/game.js"></script>
+  </body>
+</html>
